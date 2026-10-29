@@ -1,0 +1,47 @@
+DESVELAR IMAGEN
+==============
+
+Imagen de Fondo
+Cubierta por muchos Discos
+A pulsaci�n de tecla, explora un disco.
+
+------------------
+
+Controlado por XML
+URL imagen de fondo
+lista objetos (num de objetos a mostrar)
+... url imagen objeto
+... url imagen objeto
+... ...
+lista explosiones
+... url explosion (swf con alpha)
+... url explosion (swf con alpha)
+... ...
+Teclas (explotarObjeto, nuevoObjeto, mostrarFondo, ocultarFondo)
+
+* explotarObjeto, oculta el objeto por fundido, sobre el muestra una explosion aleatoria
+* nuevoObjeto, crea un nuevo objeto, aparece de golpe
+* ocultarFondo, crea tantos objetos hasta que existan los indicados en el xml.
+* mostrarFondo, oculta los objetos por fundido (sin explosion)
+
+Los objetos apareceran con tama�o aleatoria (10%), giro (15�), posicion aleatoria.
+Las explosiones apareceran sobre el objeto con igual tama�o, giro.
+
+----------------------
+
+Opciones:
+- Lista de imagen de fondo (+1d)
+  (elegir aleatoriamente, cada vez que se "oculteFondo" -inicio-o-porTecla)
+  (cambiar de fondo por pulsacion de tecla, recorrer en orden)
+- Fondo como video. (+2d)
+  (indicar num.camera, w, h, fps, area) (aduntar WebcamTester)
+
+----------------------
+
+Fecha evento (5-nov-2013)
+Fecha presupuesto (24-oct-2013)
+
+Presupuesto:
+3 dias (x210) = XXX-XXX-XXX (importe)
+
+

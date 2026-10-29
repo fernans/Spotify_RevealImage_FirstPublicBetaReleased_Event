@@ -1,0 +1,14 @@
+# === Excluded: packaged as GitHub Release assets instead ===
+# Packaged captive AIR app for macOS (includes the Adobe AIR runtime + a .mov copy)
+fondos.app/
+fondos.app.rar
+
+# Video reels over the git file limit (published as Release assets)
+*.mov
+
+# === OS junk ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+._*
+__MACOSX/

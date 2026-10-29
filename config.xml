@@ -1,0 +1,13 @@
+﻿<fondo url="data/fondo.jpg" video="data/Hello_Heres_a_Story_Sizzle.mov" />
+
+<elementos num="50" s="100">
+	<elemento url="data/Disc_01.png" />
+	<elemento url="data/Disc_02.png" />
+	<elemento url="data/Disc_03.png" />
+	<elemento url="data/Disc_04.png" />
+	<elemento url="data/Disc_05.png" />
+	<elemento url="data/Disc_06.png" />
+	<elemento url="data/Disc_07.png" />
+	<elemento url="data/Disc_08.png" />
+	<elemento url="data/Disc_10.png" />
+</elementos>
